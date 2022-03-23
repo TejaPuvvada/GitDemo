@@ -56,6 +56,9 @@ public OfferPageStepDefinition(TestContextSetup testContextSetup)
 	@Then("validate name in offers page matches with landing page")
 	public void validate_name_in_offers_page_matches_with_landing_page() {
 	    Assert.assertEquals("pass", ProductName2, testContextSetup.ProductName1);
+	    System.out.println("Added");
+	    System.out.println("Added");
+	    System.out.println("Added");
 	}
 	
 }
