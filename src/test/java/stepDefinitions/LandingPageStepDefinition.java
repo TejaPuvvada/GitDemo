@@ -56,6 +56,9 @@ public LandingPageStepDefinition(TestContextSetup testContextSetup)
 	{
 		landingPage.incrementQuantity(Integer.parseInt(quantity));
 		landingPage.addToCart();
+		System.out.println("Added by Gitx");
+		System.out.println("Added by Gitx");
+		System.out.println("Added by Gitx");
 	}
 
 	
