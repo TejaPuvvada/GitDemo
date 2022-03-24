@@ -25,6 +25,9 @@ public class Hooks {
 	public void  AfterScenario() throws IOException
 	{
 		testContextSetup.testBase.WebDriverManager().quit();
+		System.out.println("dev branch code added");
+		System.out.println("dev branch code added");
+		System.out.println("dev branch code added");
 	}
 	@AfterStep
 	public void AddScreenshot(Scenario scenario) throws IOException
